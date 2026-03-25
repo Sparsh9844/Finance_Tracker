@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📊 Finance-Trackr
 
-## Getting Started
+A modern full-stack finance tracking application built with Next.js (App Router), designed to help users manage income, expenses, and financial insights efficiently.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
+🚀 Features
+🔐 Authentication (via Clerk or similar)
+📈 Track income & expenses
+🧾 Categorized transactions
+📊 Dashboard with financial overview
+📬 Email integrations (notifications/reminders)
+⚡ Server-side APIs using Next.js
+🗄️ Database powered by Prisma ORM
+🎨 Styled with Tailwind CSS
+🏗️ Project Structure
+FINANCE-TRACKR/
+│
+├── app/                # App Router (Next.js 13+)
+│   ├── (auth)/         # Authentication routes
+│   ├── (main)/         # Main app pages
+│   ├── api/            # Backend API routes
+│   ├── layout.js       # Root layout
+│   ├── page.jsx        # Landing page
+│   └── globals.css     # Global styles
+│
+├── components/         # Reusable UI components
+├── data/               # Static or mock data
+├── emails/             # Email templates / logic
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions / configs
+├── prisma/             # Prisma schema & DB config
+├── public/             # Static assets
+│
+├── middleware.js       # Auth / request middleware
+├── next.config.mjs     # Next.js config
+├── tailwind.config.js  # Tailwind CSS config
+├── postcss.config.mjs  # PostCSS config
+├── package.json        # Dependencies & scripts
+└── .env                # Environment variables
+🧰 Tech Stack
+Frontend: Next.js (App Router), React
+Styling: Tailwind CSS
+Backend: Next.js API routes
+Database: Prisma ORM
+Auth: Clerk (or similar)
+Tooling: ESLint, PostCSSt the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+images:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img width="2628" height="6567" alt="image" src="https://github.com/user-attachments/assets/ecb7dfcb-78d4-4b2f-a177-726c195b3540" />
